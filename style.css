@@ -1,0 +1,25 @@
+body {
+	font: 12px cambria; 
+	color: navy ;
+	text-align: center;
+	
+	/*background-image: url(http://www.bridgeofsighsball.co.uk/comingsoon.jpg);
+	margin: 30px auto;
+	padding: 0px;
+	display: block;
+	max-width: 80%;
+	max-height: 90%;*/
+	}
+	
+	h1{
+	
+	border-width: 3px ;
+	background-color: white; 
+	}
+	
+	li{
+	font-style:italic;
+	display:inline-block;
+	padding: 0px 0px 0px 20px;
+	}
+	
