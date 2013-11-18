@@ -1,0 +1,22 @@
+.row { 
+	text-align:center;
+	text-align:bottom;
+	position:bottom; 
+	}
+
+#left-image-box{
+	display: inline-block;
+	height:367px;
+	text-align:center;
+	top: 50%;	
+}
+
+#right-image-box{
+	height:367px;
+}
+
+#left-image{
+display:inline-block;
+ top:10%;
+position: relative; 
+}
