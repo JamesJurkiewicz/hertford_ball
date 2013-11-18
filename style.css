@@ -16,7 +16,6 @@ body {
 }
 	
 	.navbar-nav > li {
-	font-style:NONE;
 	line-height:10px; 
 	display:inline-block;
 	padding: 0px 20px 0px 20px;
@@ -31,7 +30,6 @@ body {
 	position: relative;
 	top:400px;
 	margin-bottom:20px;
-	text-align:center;
 	top:400px;
 	padding:0px 0px;
 	width:100%;
@@ -41,51 +39,26 @@ body {
 	border:transparent;
 	}
 	
-	.nav .navbar-nav{
-	width:auto; 
-	height: auto;
-	position:relative;
-	float:left;
-	display: inline-block;
-	}
-	
-	.collapse .navbar-collapse{
-	text-align: center;
-	float:right;
-	margin-left: auto;
-    margin-right: auto;
-
-	}
 	
 	.navbar-nav {
 	float: center;
 	height:auto;
 	}
-	
+		
 	.form-group{
 	position:fixed;
 	bottom:10px;
 	display: inline-block;
     text-align: center;
 	}
-	
-	.dropdown-menu li:hover .sub-menu {
-    visibility: visible;
-	background-color:red;
-}
 
-	.dropdown:hover .dropdown-menu {
-    display: block;
-}
 .dropdown-menu{
 	background-color: rgba(240,240,240,0.8);
 	box-shadow: 0px 0px 10px 10px rgba(240,240,240,0.8);
-	float: none;
+	float: right;
 	border:transparent;
 	}
 
-	@dropdown-link-hover-bg{#f5f5f5}
-	
 	.head{
 	position: relative; 
 	left:center;
@@ -94,11 +67,15 @@ body {
 	box-shadow: 0px 0px 10px 10px rgba(240,240,240,0.8);
 	}
 	
+.dropdown-menu.a:link {color:gray;text-decoration:none;font-variant: small-caps;} 
+.dropdown-menu.a:a:visited {color:gray;text-decoration:none;}  /* visited link */
+.dropdown-menu.a:a:hover {color:gray; text-decoration:none; font-weight:bold;}  /* mouse over link */
+.dropdown-menu.a:a:active {color:gray;text-decoration:none;}  /* selected link */
 	
 	a:link {color:gray;text-decoration:none;font-variant: small-caps;}      /* unvisited link */
 	a:visited {color:gray;text-decoration:none;}  /* visited link */
 	a:hover {color:gray; text-decoration:none; font-weight:bold;}  /* mouse over link */
-	a:active {color:gray;text-decoration:none;}  /* selected link */
+	a:active {color:gray;text-decoration:none; font-weight:bold;}  /* selected link */
 	
 	 
 	
