@@ -1,7 +1,8 @@
 .row { 
 	text-align:center;
 	text-align:bottom;
-	position:bottom; 
+	/*position:bottom; */
+	padding: 20px;
 	}
 
 #left-image-box{

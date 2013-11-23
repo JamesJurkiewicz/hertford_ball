@@ -1,0 +1,28 @@
+
+body{
+
+background-image: url(../images/fireworks.jpg);
+}
+
+form{
+position: relative;
+top:100px;
+text-align: center;
+}
+
+input{ 
+font-variant: small-caps;
+}
+
+input, textarea, keygen, select, button, isindex {
+
+background-color: rgba(240,240,240,0.8);
+font-variant: small-caps;
+text-align: center;
+}
+
+.form-control {
+display:inline-block;
+width: 30%;
+background-color: rgba(240,240,240,0.8);
+}
