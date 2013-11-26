@@ -1,9 +1,10 @@
+/*
 form{
 position: relative;
 top:100px;
 text-align: center;
 }
-
+*/
 input{ 
 font-variant: small-caps;
 }
@@ -17,13 +18,8 @@ text-align: center;
 
 .form-control {
 display:inline-block;
-width: 30%;
+width: 40%;
 background-color: rgba(240,240,240,0.8);
-padding:20px 20px;
+padding:10px 20px;
+margin:10px 0px;
 }
-
-.container-inner{
-	top:100px;
-}
-
-

@@ -12,11 +12,11 @@
 <body>
 
 <script type="text/javascript">var submitted=false;</script>
-		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thanks.html';}"></iframe>
+		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='confirmation.html';}"></iframe>
 	
 	<div class="container">
 		<div class="head">
-			<img src="images/logo.png">
+			<img src="images/logo.png" class="img-responsive">
 		</div>
 	
 		<nav class="navbar navbar-default" role="navigation">
@@ -60,9 +60,10 @@
 			</div><!-- /.navbar-collapse -->
 		</nav>
 
-		<div class="inner-container">
+		<div class="container-inner">
+		
 			<h3>Ticket Form</h3>
-
+			<p>To apply for a ticket, please fill in the form below and the cost of your ticket and your guest's ticket will be charged to you via your battels account. If you do not intend to bring a guest to the ball, just leave those options blank. 
 			<form role="form" action="https://docs.google.com/forms/d/1f2PprZXR0OU5AYMOCbmb6srh3gGs_w71dloPXuhJ6Ec/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
 				<input type="text" class="form-control" name="entry.924987689" placeholder="Name">
 				<br><input type="text" class="form-control" name='entry.589409132' placeholder="Email">
