@@ -8,14 +8,14 @@ body {
 	color: gray; 
 	font-variant: small-caps;
 	text-decoration:bold;
-	background-image:url("../images/fireworks.jpg");
+	background-image:url("../images/masquerade.jpg");
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-position:center;
-	/*background-size:auto 100%*/
+	/*background-size:auto;
 	background-size:cover;
 	height:auto;
-	padding:50px 0px 50px 0px ;
+	padding:50px 50px 50px 50px ;*/
 }
 
 .head{
@@ -69,7 +69,7 @@ body {
 
 .dropdown-menu{
 	background-color: rgba(240,240,240,0.95);
-	box-shadow: 0px 0px 10px 10px rgba(240,240,240,0.95);
+	box-shadow: 0px 0px 10px 10px rgba(300,300,300,0.95);
 	float: center;
 	border:transparent;
 	width:100%;
@@ -86,9 +86,9 @@ body {
 .dropdown-menu.a:hover {color:gray; text-decoration:none; font-weight:bold;}  /* mouse over link */
 .dropdown-menu.a:active {color:gray;text-decoration:none;}  /* selected link */
 	
-	a:link {color:gray;text-decoration:none;font-variant: small-caps;}      /* unvisited link */
+	a:link {color:gray;text-decoration:none;font-variant: bold;}      /* unvisited link */
 	a:visited {color:gray;text-decoration:none;}  /* visited link */
-	a:hover {color:gray; text-decoration:none; font-weight:bold;}  /* mouse over link */
+	a:hover {color:black; text-decoration:none; font-weight:bold;}  /* mouse over link */
 	a:active {color:gray;text-decoration:none; font-weight:bold;}  /* selected link */
 	
 
@@ -98,9 +98,11 @@ body {
         max-width: 65%;
 		left:center;
 		width:100%;
-		background-color: rgba(240,240,240,0.4);
+		background-color: rgba(200,200,200,0.8);
 		text-align:center;
 		padding-bottom:120px;
+		margin-top:30px;
+		margin-bottom:30px;
 		/*box-shadow: 0px 0px 10px 10px rgba(240,240,240,0.8);*/
 		border-radius:10px;
     }

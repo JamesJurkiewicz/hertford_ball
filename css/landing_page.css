@@ -1,13 +1,15 @@
-
+/*
 body{
+background-image: url(../images/fireworks.jpg);	
 
-background-image: url(../images/fireworks.jpg);
-}
+background-image:<iframe src="//player.vimeo.com/video/86279792" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/86279792">Hertford Ball 2014 (Corporate Version- rough cut)</a> from <a href="http://vimeo.com/user16715580">Roland Walters</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+}*/
 
 form{
-position: relative;
+position: bottom;
 top:25px;
 text-align: center;
+margin-bottom:30px;
 }
 
 input{ 
@@ -26,3 +28,10 @@ display:inline-block;
 width: 30%;
 background-color: rgba(240,240,240,0.8);
 }
+
+    .container{
+		position:relative;
+		padding-bottom:30px;
+		margin-top:500px;
+		margin-bottom:30px;
+    }
