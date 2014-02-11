@@ -35,3 +35,6 @@ background-color: rgba(240,240,240,0.8);
 		margin-top:500px;
 		margin-bottom:30px;
     }
+	
+	body {
+	background-image:url("../images/masquerade.jpg");
