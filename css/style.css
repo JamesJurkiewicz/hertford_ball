@@ -40,7 +40,9 @@ body {
 	width:100%;
 	}
 	
-
+placeholder{
+color:black;
+}
 
 	.navbar{
 	position: relative;
