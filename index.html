@@ -21,12 +21,14 @@
 	</div>
 		<div class='container'>
 			<div class="container-inner">
-				<form role="form" meathod="post" action="https://docs.google.com/forms/d/1M1-aTOFcAI_QUH13niMAyDgR934BWTHwXBMxsy0b8xM/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-						<input type="email" class="form-control" name='entry.1534874362' placeholder="Email">
-						<br>
-						<br>
-		
+				<form name="emailform" role="form" meathod="post" action="https://docs.google.com/forms/d/1M1-aTOFcAI_QUH13niMAyDgR934BWTHwXBMxsy0b8xM/formResponse" method="POST" target="hidden_iframe" onsubmit="return validateForm()">
+					<input type="email" class="form-control" name='entry.1534874362' placeholder="Email">
+					<br>
 					<input type="submit" class='btn' value="join mailing list">
+				</form>
+				<br>
+				<form method="get" action="homepage.html">
+					<button class='btn' type="submit">Enter</button>
 				</form>
 			</div>			
 		</div>
@@ -41,8 +43,8 @@
 
   ga('create', 'UA-46042229-1', 'jamesjurkiewicz.github.io');
   ga('send', 'pageview');
-  
-</script>
 
+</script>
+		<script type="text/javascript" src="myscript.js"></script> 
 </body>
 
